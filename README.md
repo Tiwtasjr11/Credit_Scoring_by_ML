@@ -14,8 +14,8 @@ When building regression models (like Logistic Regression, which is common in cr
 We measure this using the **Variance Inflation Factor (VIF)**. 
 
 **VIF Equation:**
-$$VIF_i = \frac{1}{1 - R_i^2}$$
-*Where $R_i^2$ is the R-squared value obtained by regressing the $i^{th}$ independent variable against all other independent variables.*
+VIF_i = \frac{1}{1 - R_i^2}
+*Where R_i^2 is the R-squared value obtained by regressing the i^{th} independent variable against all other independent variables.*
 
 * **Rule of Thumb:** A VIF value greater than 5 (or sometimes 10) indicates problematic multicollinearity, suggesting that the variable should be investigated and potentially removed from the model.
 
